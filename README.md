@@ -1,5 +1,5 @@
-# Silbentrennung
+# Silbentrennung / Hyphenation
 
-### Automatische Silbentrennung in HTML Seiten.
+### Automatic hyphenation in HTML pages
 
-Siehe Einbindung in header.php (Code in \<head\> Bereich)
+See inclusion in header.php (code in <head> area)
