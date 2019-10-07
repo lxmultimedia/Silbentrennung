@@ -2,4 +2,4 @@
 
 ### Automatic hyphenation in HTML pages
 
-See inclusion in header.php (code in <head> area)
+See inclusion in header.php (code in \<head\> area)
