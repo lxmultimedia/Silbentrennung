@@ -1,22 +1,18 @@
-<?php global $qode_options_proya, $wp_query; ?>
-<!DOCTYPE html>
-<html <?php language_attributes(); ?>>
 <head>
 	<!-- Silbentrennung -->
     <script>
     var Hyphenopoly = {
         require: {
-            "la": "honorificabilitudinitas",
             "de-de": "Silbentrennungsalgorithmus",
-            "en-us": "Supercalifragilisticexpialidocious"
         },
         paths: {
             patterndir: "/silbentrennung/patterns/",
             maindir: "/silbentrennung/"
         },
         setup: {
+        	safeCopy: true,
             selectors: {
-                "p, a, td": {}
+                "p, span, td, a, h1, h2, h3, h4, h5, h6, li": {}
             }
         }
     };
